@@ -1,11 +1,10 @@
 # SmallerImages
 
-If you want to reduce the file size of images uploaded to your Umbraco website, then this is the package for you. You can set a maximum width and height, this package will replace the original image with a smaller cropped version. It also allows you to create another crop of the image, perhaps a smaller preview size image.
+If you want to reduce the file size of images uploaded to your Umbraco website, then this is the package for you. You can set a maximum width and height, this package will replace the original image with a smaller resized version. It also allows you to create another crop of the image, perhaps a smaller preview size image.
 
 **For Umbraco v7 use version 1.1.1 and for Umbraco v8 use version 2.0.0+**
 
-To use this in your Umbraco website, the best way to install it is using NuGet:
-
+Forked from:
 [![Nuget Downloads](https://img.shields.io/nuget/dt/SmallerImages.svg)](https://www.nuget.org/packages/SmallerImages)
 
 ```js
@@ -47,6 +46,3 @@ Then just add these app settings to your web.config file and edit the values acc
     ```xml
     <add key="ImageResizeKeepOriginal" value="false" />
     ```
-## Special Thanks
-
-This project would not exist if it wasn't for [James South](https://github.com/JimBobSquarePants) creating ImageProcessor
